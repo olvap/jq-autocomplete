@@ -1,9 +1,13 @@
 to use with rails 3
 
-1. include the javascript
+1. Download the plugin
+  in the public/javascript
+  git clone git@github.com:olvap/jq-autocomplete.git
+
+2. include the javascript
   <%= javascript_include_tag('jq-autocomplete/autocomplete') %>
 
-2. in the place where do u like to insert the text fileld remplace with
+3. in the place where do u like to insert the text fileld remplace with
   
   <input id='table_name' class='autocomplete' table='table' />
 
