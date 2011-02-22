@@ -47,7 +47,7 @@ $(function() {
 });
 
 function get_url(table){
-  return ("/" + table + "s.xml?search[name_contains]="+ ($("#" + table + "_name").val()));
+  return ("/" + table + "s.xml?search[name_sw]="+ ($("#" + table + "_name").val()));
 }
 function get_url_id(table) {
   return "/" + table + "s/" + $("input[id$=" + table + "_id]").val() + ".xml";
